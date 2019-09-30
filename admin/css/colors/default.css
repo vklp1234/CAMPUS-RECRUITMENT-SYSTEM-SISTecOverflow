@@ -1,0 +1,497 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900);
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Normal Color*/
+/*Border radius*/
+/*Preloader*/
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+/*Just change your choise color here its theme Colors*/
+body {
+  background: #fff;
+}
+.top-left-part {
+  background: #fff;
+}
+.top-left-part .dark-logo {
+  display: none;
+}
+.top-left-part .light-logo {
+  display: inline-block;
+  filter: drop-shadow(1px 1px 1px #333);
+}
+/*Top Header Part*/
+.logo i {
+  color: #ffffff;
+}
+.navbar-header {
+  background: #2f323e;
+}
+.navbar-top-links > li > a {
+  color: #ffffff;
+}
+.sidebar .sidebar-head {
+  background: #ffffff;
+}
+.sidebar .sidebar-head h3 {
+  color: #686868;
+}
+/*Right panel*/
+.right-sidebar .rpanel-title {
+  background: #41b3f9;
+}
+/*Bread Crumb*/
+.bg-title .breadcrumb .active {
+  color: #41b3f9;
+}
+/*Sidebar*/
+.sidebar {
+  background: #fff;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.sidebar .label-custom {
+  background: #01c0c8;
+}
+#side-menu li a {
+  color: #54667a;
+}
+#side-menu li a {
+  color: #54667a;
+  border-left: 0px solid #fff;
+}
+#side-menu > li > a {
+  border-left: 3px solid transperant;
+}
+#side-menu > li > a:hover,
+#side-menu > li > a:focus {
+  background: rgba(0, 0, 0, 0.07);
+}
+#side-menu > li > a.active {
+  background: transperant;
+  color: #54667a;
+  border-left: 3px solid #41b3f9;
+  font-weight: 500;
+}
+#side-menu ul > li > a:hover {
+  color: #41b3f9;
+}
+#side-menu ul > li > a.active {
+  color: #54667a;
+  font-weight: 500;
+}
+.user-profile .user-pro-body .u-dropdown {
+  color: #54667a;
+}
+/*themecolor*/
+.bg-theme {
+  background-color: #707cd2 !important;
+}
+.bg-theme-dark {
+  background-color: #41b3f9 !important;
+}
+/*Button*/
+.btn-custom {
+  background: #41b3f9;
+  border: 1px solid #41b3f9;
+  color: #ffffff;
+}
+.btn-custom:hover {
+  background: #41b3f9;
+  opacity: 0.8;
+  color: #ffffff;
+  border: 1px solid #41b3f9;
+}
+/*Custom tab*/
+.customtab li.active a,
+.customtab li.active a:hover,
+.customtab li.active a:focus {
+  border-bottom: 2px solid #41b3f9;
+  color: #41b3f9;
+}
+.tabs-vertical li.active a,
+.tabs-vertical li.active a:hover,
+.tabs-vertical li.active a:focus {
+  background: #41b3f9;
+  border-right: 2px solid #41b3f9;
+}
+/*Nav-pills*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background: #41b3f9;
+  color: #ffffff;
+}
+/*Extra css*/
+.bg-theme {
+  background-color: #41b3f9 !important;
+}
+.panel-themecolor,
+.panel-theme {
+  border-color: #41b3f9;
+}
+.panel-themecolor .panel-heading,
+.panel-theme .panel-heading {
+  border-color: #41b3f9;
+  color: white;
+  background-color: #41b3f9;
+}
+.panel-themecolor .panel-heading a,
+.panel-theme .panel-heading a {
+  color: #ffffff;
+}
+.panel-themecolor .panel-heading a:hover,
+.panel-theme .panel-heading a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.panel-themecolor a,
+.panel-theme a {
+  color: #41b3f9;
+}
+.panel-themecolor a:hover,
+.panel-theme a:hover {
+  color: #0791e6;
+}
+.inf-campus {
+  border-left: 7px solid #ffbb4480;
+  padding: 4px 8px;
+  font-size: 21px;
+  font-weight: 100;
+  font-family: 'Saira Stencil One', cursive;
+}
+.info-form-panel {
+ border: 1px solid #ddd;
+ padding: 0px;
+ border-radius: 6px;
+ display: block;
+ flex: auto;
+ margin: 0px 13px;
+ height: auto;
+}
+.Info-heading{
+  background: #e4e7ea;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: -10px;
+  border: 5px;
+}
+
+.heading-text{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 11px;
+  font-family: 'Turret Road', cursive;
+
+}
+.heading-text-1{
+  font-family: 'Electrolize', sans-serif;
+}
+.text-bold{
+  font-weight: bold;
+}
+.text-normal{
+  font-weight: normal;
+    font-size: 16px;
+    margin: 5px 6px;
+}
+.form-panel-control {
+  padding: 0px 0px 8px 10px;
+}
+.form-panel-control1{
+  padding: 0px 0px 8px 0px;
+}
+.controled{
+  border: none;
+  border-bottom: 1px solid #a6a7a9;
+  border-radius: 0px;
+  background: transparent;
+  font-style: italic;
+  width: 97%;
+  color: #263238;
+  font-size: 16px;
+  margin: 0px;
+  outline: medium none;
+  /* padding: 8px 20px 8px 0; */
+  font-family: 'Electrolize', sans-serif;
+}
+.mb-30{
+  margin-bottom: 30px !important;
+}
+.hide1{
+  display: none !important;
+}
+.button.gray:hover {
+  background-color: #582861;
+}
+.button:hover {
+  background-color: #101010;
+  color: #fff;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+.button {
+  background-color: #6c1184;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  outline: none;
+  position: relative;
+}
+
+.button.medium {
+  padding: 10px 37px 10px 37px;
+  display: inline-block;
+}
+button {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+.form-error-msg {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 1.2rem;
+  color: #fd397a;
+  display: block;
+}
+.merchant-alert-error {
+  color: #75757c;
+  background-color: #f9f9fc;
+  border-color: #f7f7fb;
+}
+.merchant-alert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 97%;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 1rem 1.5rem;
+  border-radius: 0px;
+  margin: 11px 0 20px 0;
+  position: relative;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+}
+.merchant-alert .alert-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 1.25rem 0 0;
+}
+.alert-icon {
+  margin-right: 7px;
+}
+.merchant-alert-error .alert-icon i {
+  color: #fd397a !important;
+  font-size: 2.4rem;
+}
+.merchant-alert.merchant-alert-error .alert-text {
+  color: #6c7293;
+  font-family: 'Turret Road', cursive;
+  font-weight: bold;
+}
+.merchant-alert .alert-text {
+  font-family: 'Turret Road', cursive;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.logout-campus{
+
+}
+.upcoming-campus{
+
+}
+.text-lg-center h2 {
+  margin: 0px 0px 13px 0px;
+  font-family: 'Audiowide', cursive;
+  text-align: center;s
+}
+.alert-campus{
+  width: 93.3% ;
+}
+.form-control-label{
+  font-family: 'Audiowide', cursive;
+}
+.custom-file-control{
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  /* margin-top: 4px; */
+  font-size: 18px;
+  font-weight: bold;
+}
+.custom-file-input{
+ opacity: 0;
+ max-width: 100%;
+}
+.img-campus{
+  max-width: 150px;
+  max-height: 150px;
+}
+.mb-10{
+  margin-top: 10px !important;
+}
+.pd-0{
+  padding: 0px !important;
+}
+
+.notification-panel {
+  content: '';
+  margin: 0px;
+  border: 1px solid #eee;
+  /* z-index: 1; */
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  animation: grow 0.5s ease-in forwards;
+}
+@keyframes grow {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.mb-0{
+  margin: 0px !important;
+}
+.pd-left-10{
+  padding: 10px 0px;
+}
+.panel-pd{
+      padding: 6px 0px;
+}
+.mbb-10{
+  margin-bottom: 10px;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 13px 15px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 0px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.mr-7{
+  margin: 0px 7px;
+}
+@media screen and (max-width: 767px)
+{
+  .white-box {
+    background: #fff;
+    padding: 17px;
+    margin-bottom: 30px;
+  }
+  .info-form-panel {
+    border: 1px solid #ddd;
+    padding: 0px;
+    border-radius: 3px;
+    display: block;
+    flex: auto;
+    margin: 0px 10px;
+    height: auto;
+  }
+  .hide1{
+   display: block !important;
+ }
+ .mt-10{
+  margin-top: 10px !important;
+}
+.logout-campus{
+  display: none !important;
+}
+.alert-campus {
+  width: 100%;
+}
+.mb-5{
+  margin-bottom: 5px;
+}
+.pd-0{
+  padding: 0px;
+}
+.aca-align{
+  text-align: center;
+}
+.pd-left-10 {
+  padding: 7px 2px;
+  px: ;
+  */: ;
+}
+.tab-minwidth{
+  margin: 0px;
+    padding: 0px 12px;
+}
+.hidden-cmp{
+  display: none !important;
+}
+
+}
